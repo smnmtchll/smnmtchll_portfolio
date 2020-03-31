@@ -146,7 +146,7 @@ const Projects = () => {
             sm={{ span: 12, order: 2 }}
             md={{ span: 6, order: 2 }}
           >
-            <h5>Under construction</h5>
+            <h5>Under Construction</h5>
             <p>
               Among other things, I'm currently working on a basic invoice
               creation and tracking system for my wife's craft business. I'm
@@ -172,6 +172,43 @@ const Projects = () => {
               </Col>
               <Col xs={2} sm={2} md={0}></Col>
             </Row>
+          </Col>
+        </Row>
+      </Jumbotron>{' '}
+      <Jumbotron className="first">
+        <Row>
+          <Col>
+            <h5>Portfolio Site</h5>
+            <p>
+              smnmtchll.com was built using{' '}
+              <strong>
+                <a href="https://nextjs.org/" target="_blank">
+                  NextJS
+                </a>
+              </strong>{' '}
+              and{' '}
+              <strong>
+                <a href="https://react-bootstrap.github.io/" target="_blank">
+                  React-Bootstrap
+                </a>
+              </strong>
+              . The full code base is available to view on my{' '}
+              <a
+                href="https://github.com/smnmtchll/smnmtchll_portfolio"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              .
+            </p>
+            <p>
+              <Button
+                href="https://github.com/smnmtchll/smnmtchll_portfolio"
+                target="_blank"
+              >
+                View the code on GitHub
+              </Button>
+            </p>
           </Col>
         </Row>
       </Jumbotron>

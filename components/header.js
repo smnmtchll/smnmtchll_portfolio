@@ -7,8 +7,8 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/skills">skills</Nav.Link>
           <Nav.Link href="/projects">projects</Nav.Link>
+          <Nav.Link href="/skills">skills</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <style jsx>{`
