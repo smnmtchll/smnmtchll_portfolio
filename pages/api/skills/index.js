@@ -2,12 +2,12 @@ export default (req, res) => {
   const skills = [
     {
       id: 1,
-      name: 'Node',
+      name: 'NodeJS',
       url: 'https://nodejs.org/',
     },
     {
       id: 2,
-      name: 'Express',
+      name: 'ExpressJS',
       url: 'https://expressjs.com/',
     },
     {
@@ -37,7 +37,7 @@ export default (req, res) => {
     },
     {
       id: 8,
-      name: 'React',
+      name: 'ReactJS',
       url: 'https://reactjs.org/',
     },
     {
@@ -47,7 +47,7 @@ export default (req, res) => {
     },
     {
       id: 10,
-      name: 'Vue',
+      name: 'VueJS',
       url: 'https://vuejs.org/',
     },
     {

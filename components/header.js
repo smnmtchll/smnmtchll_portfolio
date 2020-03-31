@@ -1,4 +1,5 @@
 import { Nav, Navbar } from 'react-bootstrap';
+import ActiveLink from '../helpers/active-link';
 
 const Header = () => {
   return (
@@ -7,13 +8,18 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/projects">projects</Nav.Link>
-          <Nav.Link href="/skills">skills</Nav.Link>
+          <ActiveLink href="/projects" prefetch>
+            <Nav.Link>projects</Nav.Link>
+          </ActiveLink>
+          <ActiveLink href="/skills" prefetch>
+            <Nav.Link>skills</Nav.Link>
+          </ActiveLink>
         </Nav>
       </Navbar.Collapse>
-      <style jsx>{`
-        .navbar-collapse .collapse {
-          color: red;
+      <style global jsx>{`
+        .active {
+          // text-transform: uppercase;
+          border-bottom: 1px solid;
         }
       `}</style>
     </Navbar>
