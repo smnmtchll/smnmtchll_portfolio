@@ -16,10 +16,22 @@ const Header = () => {
           </ActiveLink>
         </Nav>
       </Navbar.Collapse>
+
+      <div className="social">
+        <Nav.Link href="https://github.com/smnmtchll" target="_blank">
+          <img src="img/github.svg" />
+        </Nav.Link>
+      </div>
       <style global jsx>{`
         .active {
-          // text-transform: uppercase;
           border-bottom: 1px solid;
+        }
+        .social {
+          margin-left: 20px;
+          opacity: 0.8;
+        }
+        .social a:hover {
+          transform: rotate(20deg);
         }
       `}</style>
     </Navbar>
