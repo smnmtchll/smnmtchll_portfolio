@@ -19,7 +19,7 @@ const Header = () => {
 
       <div className="social">
         <Nav.Link href="https://github.com/smnmtchll" target="_blank">
-          <img src="img/github.svg" />
+          <img src="img/layout/icons/github.svg" />
         </Nav.Link>
       </div>
       <style global jsx>{`
@@ -28,7 +28,6 @@ const Header = () => {
         }
         .social {
           margin-left: 20px;
-          opacity: 0.8;
         }
         .social a:hover {
           transform: rotate(20deg);

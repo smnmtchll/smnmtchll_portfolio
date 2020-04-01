@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "html-react-parser": "^0.10.3",
     "next": "^9.3.3",
     "node-fetch": "^2.6.0",
     "react": "^16.13.1",

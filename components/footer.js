@@ -17,10 +17,13 @@ const Header = () => {
         overlay={popover}
       >
         <a href="http://www.jackhoylephotography.com/" target="_blank">
-          <img src="./img/camera.png" width="24"></img>
+          <img src="./img/layout/icons/camera.svg" width="24"></img>
         </a>
       </OverlayTrigger>
       <style global jsx>{`
+        .navbar a img {
+          opacity: 0.9;
+        }
         .popover {
           min-width: 320px;
           opacity: 0.7;

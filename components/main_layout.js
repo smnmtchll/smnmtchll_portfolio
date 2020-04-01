@@ -14,7 +14,7 @@ const Layout = props => {
       <Header />
       <div className="main-content">{props.children}</div>
       <div className="cloud">
-        <img src="/img/cloud.png"></img>
+        <img src="/img/layout/cloud.png"></img>
       </div>
       <Footer />
       <style jsx>{`
