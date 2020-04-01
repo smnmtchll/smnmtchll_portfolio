@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import Layout from '../../components/main_layout';
+import Layout from '../../components/main-layout';
 import parse from 'html-react-parser';
 import { Jumbotron, Button, Container, Row, Col } from 'react-bootstrap';
 

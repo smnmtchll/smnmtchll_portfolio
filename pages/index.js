@@ -1,4 +1,4 @@
-import Layout from '../components/main_layout';
+import Layout from '../components/main-layout';
 
 const HomePage = () => {
   return (
