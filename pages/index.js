@@ -15,7 +15,6 @@ const HomePage = () => {
         <a href="https://nodejs.org/en/about/" target="_blank">
           NODE
         </a>{' '}
-        /{' '}
         <a href="https://expressjs.com/" target="_blank">
           EXPRESS
         </a>{' '}

@@ -68,7 +68,7 @@ export default (req, res) => {
     {
       title: `Portfolio Site`,
       txt: `<p>
-                smnmtchll.com was built using <strong><a href="https://nextjs.org/" target="_blank">NextJS</a></strong> and <strong> <a href="https://react-bootstrap.github.io/" target="_blank"> React-Bootstrap</a></strong>. The full code base is available to view on my <a href="https://github.com/smnmtchll/smnmtchll_portfolio" target="_blank">GitHub</a>.
+                smnmtchll.com was built using <strong><a href="https://nextjs.org/" target="_blank">NextJS</a></strong> and <strong> <a href="https://react-bootstrap.github.io/" target="_blank"> React-Bootstrap</a></strong>. The full code base is available to view on <a href="https://github.com/smnmtchll/smnmtchll_portfolio" target="_blank">GitHub</a>.
             </p>`,
       btn: {
         active: true,

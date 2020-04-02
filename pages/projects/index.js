@@ -7,7 +7,10 @@ const Projects = ({ projects }) => {
   return (
     <Layout>
       {projects.map((project, key) => (
-        <Jumbotron className={key % 2 == 0 ? 'jumbo-even' : 'jumbo-odd'}>
+        <Jumbotron
+          key={key}
+          className={key % 2 == 0 ? 'jumbo-even' : 'jumbo-odd'}
+        >
           <Container fluid>
             <Row>
               <Col
@@ -19,7 +22,7 @@ const Projects = ({ projects }) => {
                 }}
               >
                 <h5>{project.title}</h5>
-                <p>{parse(project.txt)}</p>
+                {parse(project.txt)}
                 <>
                   {project.btn.active ? (
                     <Button href={project.btn.url} target="_blank">
@@ -104,7 +107,7 @@ const Projects = ({ projects }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch(`http://localhost:3000/api/projects`);
+  const res = await fetch(`${process.env.api_url}/api/projects`);
   const projects = await res.json();
   return {
     props: {

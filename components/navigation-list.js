@@ -6,12 +6,12 @@ const Header = () => {
     <>
       <ul>
         <li>
-          <ActiveLink href="/projects" prefetch>
+          <ActiveLink href="/projects">
             <Nav.Link>projects</Nav.Link>
           </ActiveLink>
         </li>
         <li>
-          <ActiveLink href="/skills" prefetch>
+          <ActiveLink href="/skills">
             <Nav.Link>skills</Nav.Link>
           </ActiveLink>
         </li>
