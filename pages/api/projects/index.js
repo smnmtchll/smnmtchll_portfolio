@@ -3,7 +3,7 @@ export default (req, res) => {
     {
       title: `Artworks London Inventory`,
       txt: `<p>
-                Artworks London was an arts services business I co-founded back in 2012. At the core of the business was a <strong> <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)" target="_blank">MEAN</a> </strong> cloud based inventory system that supported artists, galleries and collectors operating internatioanlly in the commercial artworld.
+                Artworks London was an arts services business I co-founded back in 2012. At the core of the business was a <strong> <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)" target="_blank">MEAN</a> </strong> cloud based inventory system that supported artists, galleries and collectors operating internationally in the commercial artworld.
             </p>`,
       btn: {
         active: true,
