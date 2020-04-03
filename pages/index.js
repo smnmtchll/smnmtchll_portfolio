@@ -3,12 +3,6 @@ import Layout from '../components/main-layout';
 const HomePage = () => {
   return (
     <Layout>
-      {/* <h1>
-        I'VE BEEN WRITING APPLICATIONS, BUILDING WEBSITES AND CODING STUFF SINCE
-        CATCHING THE BUG BACK IN THE LATE NINETIES. THERE ARE FEW THINGS MORE
-        SATISFYING THAN CREATING SOMETHING BRAND NEW, LEARNING ANOTHER SKILL OR
-        FINE TUNING A PROJECT TO MAKE IT BETTER.
-      </h1> */}
       <h1>
         I'VE BEEN WRITING APPLICATIONS, BUILDING WEBSITES AND CODING STUFF SINCE
         CATCHING THE BUG BACK IN THE LATE NINETIES. CURRENTLY I BUILD ON A{' '}
@@ -42,6 +36,11 @@ const HomePage = () => {
         h1 a:hover {
           color: rgba(229, 247, 241, 1) !important;
           cursor: pointer;
+        }
+        @media only screen and (max-width: 575px) {
+          h1 {
+            font-size: 1.6rem !important;
+          }
         }
       `}</style>
     </Layout>

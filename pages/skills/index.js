@@ -6,7 +6,7 @@ const Skills = ({ skills }) => {
     <Layout>
       <ul>
         <li>
-          <h1>I WORK WITH THESE TECHNOLOGIES:</h1>
+          <h1>I WORK MOSTLY WITH THESE TECHNOLOGIES:</h1>
         </li>
         {skills.map(skill => (
           <li key={skill.id}>
@@ -41,6 +41,11 @@ const Skills = ({ skills }) => {
         .divider {
           color: rgba(229, 247, 241, 0.8) !important;
           margin-right: 10px;
+        }
+        @media only screen and (max-width: 575px) {
+          h1 {
+            font-size: 1.6rem !important;
+          }
         }
       `}</style>
     </Layout>

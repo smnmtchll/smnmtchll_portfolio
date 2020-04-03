@@ -57,6 +57,7 @@ const Header = () => {
         }
         .small-nav {
           display: none;
+          margin-right: -12px;
         }
         .small-nav-list {
           width: 100%;
@@ -73,15 +74,15 @@ const Header = () => {
         }
         .small-nav-list ul li a {
           text-transform: uppercase;
-          font-weight: 500;
+          font-weight: 100;
           font-size: 2rem !important;
-          color: rgba(85, 92, 90, 0.6) !important;
+          color: rgba(0, 0, 0, 0.4) !important;
           text-align: center;
           padding-bottom: 0;
         }
         .small-nav-list .active {
           border-bottom: none;
-          color: rgba(85, 92, 90, 1) !important;
+          color: #000 !important;
           border-bottom: 1px solid;
         }
         .small-nav-social {
@@ -99,18 +100,19 @@ const Header = () => {
         }
         .nav-modal {
           position: fixed;
-          top: 10%;
+          top: 8%;
           left: 5%;
           width: 90%;
           height: 60%;
-          -moz-border-radius: 5px;
-          -webkit-border-radius: 5px;
-          border-radius: 5px;
-          -khtml-border-radius: 5px;
-          background-color: rgba(229, 247, 241, 0.9);
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          -khtml-border-radius: 2px;
+          background-color: rgba(250, 250, 250, 0.9);
         }
         .close-nav {
           float: right;
+          margin-top: 5px;
         }
         @media only screen and (max-width: 575px) {
           .navbar-brand {
