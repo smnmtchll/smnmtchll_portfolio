@@ -102,7 +102,9 @@ const Projects = ({ projects }) => {
           opacity: 0.7;
         }
         @media only screen and (max-width: 575px) {
-          .jumbotron: background-color: rgba(229, 247, 241, 0.6) !important;
+          .jumbotron {
+            background-color: rgba(229, 247, 241, 0.6) !important;
+          }
         }
       `}</style>
     </Layout>
