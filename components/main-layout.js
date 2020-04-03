@@ -6,10 +6,21 @@ const Layout = props => {
   return (
     <div className="main-layout">
       <Head>
-        <title>smnmtchll</title>
+        <title>smnmtchll — portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="smnmtchll — portfolio" />
+        <meta property="og:description" content="A portfolio site." />
+        <meta
+          property="og:image"
+          content="https://smnmtchll-portfolio.now.sh/img/smnmtchll.png"
+        />
+        <meta property="og:url" content="http://smnmtchll.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta property="og:site_name" content="smnmtchll — portfolio" />
+        <meta name="twitter:image:alt" content="Photography by Jack Hoyle" />
       </Head>
       <Header />
       <div className="main-content">{props.children}</div>
