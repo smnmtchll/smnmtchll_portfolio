@@ -66,7 +66,6 @@ const Projects = ({ projects }) => {
           </Container>
         </Jumbotron>
       ))}
-      ;
       <style global jsx>{`
         .jumbotron {
           transition: all 0.2s ease-in-out;
