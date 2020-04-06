@@ -5,7 +5,7 @@ const Header = () => {
     <Popover id="photography-popover">
       <Popover.Title as="h3">IMAGE — JACK HOYLE</Popover.Title>
       <Popover.Content as="p">
-        Click for to view more great photography from Jack.
+        Click to view more great photography from Jack.
       </Popover.Content>
     </Popover>
   );
