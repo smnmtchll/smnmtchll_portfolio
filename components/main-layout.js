@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from './header';
 import Footer from './footer';
 
-const Layout = props => {
+const Layout = (props) => {
   return (
     <div className="main-layout">
       <Head>
@@ -14,7 +14,7 @@ const Layout = props => {
         <meta property="og:description" content="A portfolio site." />
         <meta
           property="og:image"
-          content="https://smnmtchll-portfolio.now.sh/img/smnmtchll.png"
+          content="https://smnmtchll.com/img/smnmtchll.png"
         />
         <meta property="og:url" content="http://smnmtchll.com" />
         <meta name="twitter:card" content="summary_large_image" />
