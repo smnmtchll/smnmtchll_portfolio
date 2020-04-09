@@ -24,7 +24,7 @@ export default (req, res) => {
       btn: {
         active: true,
         txt: `View the source code on GitHub`,
-        url: `https://github.com/smnmtchll/API_Boilerplate_v1.0`,
+        url: `https://github.com/smnmtchll/API_Boilerplate`,
       },
       img: {
         active: true,
